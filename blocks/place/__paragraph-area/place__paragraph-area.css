@@ -1,0 +1,17 @@
+.place__paragraph-area {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph-area {
+    row-gap: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph-area {
+    margin: 0 16px 0;
+  }
+}

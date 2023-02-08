@@ -1,0 +1,23 @@
+.place__paraghraph {
+  width: 100%;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 163%;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .place__paraghraph {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__paraghraph {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+}
