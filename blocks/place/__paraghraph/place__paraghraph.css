@@ -8,14 +8,14 @@
   line-height: 163%;
   color: #fff;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .place__paraghraph {
     font-size: 16px;
     line-height: 163%;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .place__paraghraph {
     font-size: 16px;
     line-height: 26.08px;

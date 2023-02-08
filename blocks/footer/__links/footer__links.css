@@ -5,10 +5,11 @@
   padding: 0;
   column-gap: 18px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 560px) {
   .footer__links {
     flex-direction: column;
-    row-gap: 32px;
+    row-gap: 32px;   
+    max-width: 90%;
   }
 }
 @media screen and (max-width: 320px) {
