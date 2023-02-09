@@ -1,7 +1,6 @@
 .place__paraghraph {
   width: 100%;
-  margin: 0;
-  font-family: "Inter";
+  margin: 0;  
   font-style: normal;
   font-size: 18px;
   font-weight: 400;
@@ -10,14 +9,8 @@
 }
 @media screen and (max-width: 768px) {
   .place__paraghraph {
-    font-size: 16px;
-    line-height: 163%;
+    font-size: 16px;    
   }
 }
 
-@media screen and (max-width: 320px) {
-  .place__paraghraph {
-    font-size: 16px;
-    line-height: 26.08px;
-  }
-}
+

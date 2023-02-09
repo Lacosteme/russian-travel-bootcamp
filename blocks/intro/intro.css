@@ -3,7 +3,7 @@
   flex-direction: column;
   padding-top: 92px;
   max-width: 984px;
-  margin: auto;
+  padding-left: 148px;  
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,8 +17,7 @@
   .intro {
     padding-top: 88px;
     padding-left: 24px;
-    padding-right: 24px;
-    margin: 0;
+    padding-right: 24px;    
   }
 }
 

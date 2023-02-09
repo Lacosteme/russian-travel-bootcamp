@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: 460px auto;
   grid-template-rows: repeat(2, auto);
-  column-gap: 48px;
-  row-gap: 40px;
+  column-gap: 40px;
+  row-gap: 48px;  
 }
 @media screen and (max-width: 1024px) {
   .place {
